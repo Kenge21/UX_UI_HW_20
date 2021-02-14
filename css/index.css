@@ -1,0 +1,529 @@
+@font-face {
+    font-family: 'Okta Neue Normal';
+    src: url('../fonts/Groteskly\ Yours\ \ Okta\ Neue\ Normal.woff') format('woff');
+    }
+
+@font-face {
+    font-family: 'Okta Neue Normal Italic';
+    src: url('../fonts/Groteskly\ Yours\ \ Okta\ Neue\ Normal\ Italic.woff') format('woff');
+    }
+
+@font-face {
+    font-family: 'Okta Neue Light';
+    src: url('../fonts/Groteskly\ Yours\ \ Okta\ Neue\ Light.woff') format('woff');
+    }
+         
+ @font-face {
+     font-family: 'Okta Neue Medium';
+     src: url('../fonts/Groteskly\ Yours\ \ Okta\ Neue\ Medium.woff') format('woff');
+    }
+
+ @font-face {
+    font-family: 'Okta Neue SemiBold';
+    src: url('../fonts/Groteskly\ Yours\ \ Okta\ Neue\ SemiBold.woff') format('woff');
+    }
+
+ @font-face {
+    font-family: 'Okta Neue Light Italic';
+    src: url('../fonts/Groteskly\ Yours\ \ Okta\ Neue\ Light\ Italic.woff') format('woff');
+    }
+
+@font-face {
+    font-family: 'NewYork';
+    src: url('../fonts/NewYork.otf') format('opentype');
+    }
+    
+
+    h1 {
+        font-size: 150px;
+        color: #29363b;
+        font-family: 'NewYork';
+        font-weight: 100;
+        line-height: 209px;
+        letter-spacing: 20px;
+        margin: 0;
+    }
+    
+    h2 {
+        font-size: 150px;
+        color: #29363b;
+        font-family: 'NewYork';
+        font-weight: 100;
+        line-height: 24px;
+        letter-spacing: 20px;
+    }
+    
+    h3 {
+        font-size: 24px;
+        color: #29363b;
+        font-family: 'Okta Neue Medium';
+        font-weight: 100;
+        word-spacing: 5px;
+        letter-spacing: 4px;
+        line-height: 25px;
+    }
+    
+    h4 {
+        font-size: 18px;
+        color: #29363b;
+        font-family: 'Okta Neue Normal';
+        font-weight: 100;
+        word-spacing: 5px;
+        letter-spacing: 4px;
+        line-height: 39px;
+        margin: 4px 0;
+    }
+    
+    h5 {
+        font-size: 18px;
+        color: #29363b;
+        font-family: 'Okta Neue Light Italic';
+        font-weight: 100;
+        word-spacing: 5px;
+        letter-spacing: 4px;
+        line-height: 25px;
+    }
+    
+    p {
+        font-size: 18px;
+        color: #29363b;
+        font-family: 'Okta Neue Normal';
+        font-weight: 100;
+        word-spacing: 5px;
+        letter-spacing: 4px;
+        line-height: 25px;
+    }
+
+    .text-highlight {
+        font-size: 18px;
+        color: #29363b;
+        font-family: 'Okta Neue Light Italic';
+        font-weight: 100;
+        word-spacing: 5px;
+        letter-spacing: 4px;
+        line-height: 39px;
+        margin: 4px 0;
+    }
+
+/* Navigation Below */ 
+
+.left-navigation {
+    float: left;
+}
+
+.right-navigation {
+    float: right;
+}
+
+#logo {
+    height: 60px;
+    margin-left: 25px;
+}
+
+nav {
+    width: 100%;
+    float: right;
+    background: transparent;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.nav-item {
+    color: #29363b;
+    text-align: center;
+    display: inline-block;
+    height: 20px;
+    width: 120px;
+    font-size: 14px;
+    font-family: 'Okta Neue Normal';
+    padding: 17px 0px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.nav-item:hover {
+    color: #cc884b;
+    text-align: center;
+    display: inline-block;
+    height: 20px;
+    width: 120px;
+    font-size: 14px;
+    font-family: 'Okta Neue Normal';
+    padding: 17px 0px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    text-decoration: none;
+}
+
+.contact-button {
+    cursor: pointer;
+}
+
+/* Button Elements Below */ 
+
+.button {
+    background-color: #CC884B;
+    color: white;
+    font-family: 'Okta Neue SemiBold';
+    font-weight: 100;
+    font-size: 14px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    transition: .4s;
+    border-radius: 0px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.button:hover {
+    background-color: white;
+    color: #cc884b;
+    font-family: 'Okta Neue SemiBold';
+    font-weight: 100;
+    font-size: 14px;
+    width: 200px;
+    height: 50px;
+    border: solid;
+    border-color:#CC884B;
+    border-width: 2px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    transition: .4s;
+}
+
+#button-container {
+    display: flex;
+    margin-top: 40px;
+}
+
+#button-container button {
+    margin-right: 30px;
+}
+
+/* Body Elements Below */ 
+
+body {
+    font-weight: 100;
+    font-style: normal;
+    overflow-x: hidden;
+}
+
+#page-view {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+/* Hero Section Elements Below */
+
+.jumbotron-container {
+    width: 100%;
+}
+
+.hero-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    text-align: right;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    line-height: normal;
+    width: 500px;
+    margin-right: 0px;
+}
+
+.title-container {
+    margin-left: 250px;
+}
+
+.case-study-title {
+    color: #29363b;
+    z-index: 2;
+    font-family: 'NewYork';
+    font-size: 115px;
+    letter-spacing: 10px;
+    font-weight: 100;
+}
+
+.value-prop {
+    z-index: 2;
+    font-family: 'Okta Neue Light';
+    font-size: 18px;
+    color: #29363b;
+}
+
+/* Case Study Overview Using Bootstrap Col System */ 
+
+.overview-container {
+    margin-top: 50px;
+}
+
+.overview-header {
+    font-family: 'Okta Neue Semibold';
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 15px;
+}
+
+.overview-contents {
+    font-family: 'Okta Neue Light';
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 34px;
+}
+
+.tools-skills-header {
+    font-family: 'Okta Neue Semibold';
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding-left: 140px;
+    padding-right: 0px;
+    padding-bottom: 15px;
+}
+
+.tools-skills-contents {
+    font-family: 'Okta Neue Light';
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding-left: 140px;
+    padding-right: 0px;
+    padding-bottom: 25px;
+}
+
+/* Case Study Research Using Bootstrap Col System */ 
+
+.row-container {
+    margin-bottom: 100px;
+}
+
+.row {
+    margin: 0px;
+}
+
+.research-container-view {
+
+}
+
+.research-container {
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 75px;
+}
+
+.header {
+    height: 420px;
+    padding-bottom: 50px;
+    margin-left: 75px;
+    margin-top: -50px;
+}
+
+.title-header {
+    font-size: 100px;
+    font-family: 'NewYork';
+    font-weight: 100;
+    color: #29363b;
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 135px;
+    overflow: hidden;
+}
+
+.number-header {
+    font-size: 365px;
+    color: #f4e3d1;
+    font-weight: 100;
+    font-family: 'NewYork';
+    z-index: -1;
+    opacity: .5;
+    position: absolute;
+    overflow: hidden;
+}
+
+.research-questions-header {
+    font-family: 'Okta Neue Semibold';
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+}
+
+.research-questions-contents {
+    font-family: 'Okta Neue Light';
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding-bottom: 50px;
+}
+
+.quotes-contents {
+    font-family: 'Okta Neue Light';
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding-left: 80px;
+    padding-right: 10px;
+    line-height: 24px;
+    padding-bottom: 50px;
+}
+
+/* Problem Statement Jumbotron CSS Below */ 
+.problem-statement {
+    background-color: rgba(217, 162, 138, 0.5) !important;
+    height: 250px;
+}
+
+.problem-statement-header {
+    font-family: 'Okta Neue Medium';
+    font-size: 24px;
+    font-weight: 100;
+    text-align: center;
+    color: #29363b;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.problem-statement-contents {
+    font-family: 'Okta Neue Light';
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+    color: #29363b;
+    letter-spacing: 2px;
+}
+
+/* Definition and Ideation using Bootstrap 4 card CSS Below */ 
+
+.definition-container {
+
+}
+
+.body-contents {
+    font-family: 'Okta Neue Light';
+    font-size: 16px;
+    font-weight: 100;
+    color: #29363b;
+    letter-spacing: 2px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+}
+
+.definition-wireframe-container {
+    width: 100%;
+    margin-top: 50px;
+    height: 700px;
+}
+
+.title {
+    font-family: 'Okta Neue Medium';
+    font-size: 14px;
+    font-weight: 100;
+    color: #29363b;
+    letter-spacing: 2px;
+}
+
+.details {
+    font-family: 'Okta Neue Light Italic';
+    font-size: 12px;
+    font-weight: 100;
+    color: #29363b;
+    letter-spacing: 2px;
+}
+
+.definition-card {
+    height: 500px;
+    width: 300px;
+    border: none;
+}
+
+/* Prototype CSS Below */ 
+
+.prototype-container {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.prototype-container button {
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+/* User Testing using Bootstrap 4 card CSS Below */ 
+
+.user-testing-container {
+
+}
+
+/* User Testing using Bootstrap 4 card CSS Below */ 
+
+.conclusion-container {
+    margin-bottom: 100px;
+}
+
+/* Next Case Study CSS Below */ 
+
+.next-case-study {
+    height: 200px;
+    width: 100%;
+    background-color: #d9a28a;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.next-case-study .button {
+    margin-right: 50px;
+    margin-top: 0px;
+}
+/* Footer CSS Below */ 
+
+footer {
+    background-color: #29363b;
+    height: 200px;
+    padding: 50px;
+    display: flex;
+    margin-top: 200px;
+}
+
+li {
+    color: white;
+    font-family: 'Okta Neue Normal';
+    font-size: 18px;
+    list-style-type: none;
+    text-align: left;
+}
+
+ul {
+    position: absolute;
+}
+
+#bottom-tag {
+    font-size: 18px;
+    color: white;
+    font-family: 'Okta Neue Light Italic';
+    font-weight: 100;
+    word-spacing: 5px;
+    letter-spacing: 4px;
+    line-height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+}
+
+/* Mobile Media Query */ 
+
+@media only screen and (max-width: 600px) { 
+    nav {
+        width: 100%;
+    }
+}

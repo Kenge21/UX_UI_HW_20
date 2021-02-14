@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <!-- Bootstrap 5 and 4 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!-- Stylesheet CSS -->
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <div id="page-view">
+        <!--  Navigation Section -->
+
+        <nav>
+            <div class="left-navigation">
+                <img id="logo" src="images/LightPinkNSLogo.png">
+            </div>
+            <div class="right-navigation">
+                <div class="nav-item">HOME</div>
+                <div class="nav-item">CASE STUDIES</div>
+                <div class="nav-item">ABOUT ME</div>
+                <a href="files/kellieengeresume.pdf" class="nav-item" target="_blank"
+                    download="kellieengeresume">RESUME</a>
+                <div class="nav-item contact-button">CONTACT</div>
+
+            </div>
+        </nav>
+
+        <!--  Hero Section using Bootstrap 4 -->
+        <div class="jumbotron jumbotron-fluid jumbotron-container"
+            style="background-image: url(../UX_UI_HW_20/images/FoodieFriendsHeroImagepng.png); background-size: 100%;">
+            <div class="container for-about title-container">
+                <div class="container hero-container">
+                    <h1 class="display-4 case-study-title">Foodie<br>Friends</h1>
+                    <div class="lead value-prop">"We believe that food is a common connection<br>among all people"</div>
+                </div>
+            </div>
+        </div>
+
+        <!--  Overview Section using Bootstrap col system -->
+        <div class="container">
+            <div class="row">
+                <div class="col-8 overview-container">
+                    <div class="overview-header">Overview</div>
+                    <div class="overview-contents">Foodie Friends is an app designed for foodies who find it challenging
+                        to meet people and make connections.</div>
+                    <div class="overview-contents">What happens when schedules don’t align with your existing friends or
+                        significant other or maybe you just don’t share similar tastes, but you still really want to try
+                        that new restaurant. We know the majority of people do not want to dine alone?</div>
+                    <div class="overview-contents">Foodies need an easier way to try new foods and restaurants when
+                        their peers can’t join them in the experience. With this in mind
+                        we decided a solution would be to connect like-minded people based
+                        on food and restaurant preferences.</div>
+                    <div class="overview-contents">The goal of this project was to create an app that connects people
+                        through food or restaurant preferences.</div>
+                </div>
+                <div class="col-4 overview-container">
+                    <div class="tools-skills-header">Role</div>
+                    <div class="tools-skills-contents">UX Designer<br>UX Reseacher<br>Project Manager</div>
+                    <div class="tools-skills-header">Skills</div>
+                    <div class="tools-skills-contents">User Research<br>Visual Design<br>Prototyping<br>Testing</div>
+                    <div class="tools-skills-header">Tools</div>
+                    <div class="tools-skills-contents">Figma<br>InVision<br>Adobe XD<br>Trello</div>
+                </div>
+            </div>
+        </div>
+
+        <!--  Research Section using Bootstrap col system -->
+        <div class="research-container-view">
+            <div class="header">
+                <div class="number-header">01</div>
+                <div class="title-header">Research</div>
+            </div>
+            <div class="container research-container">
+                <div class="row row-container">
+                    <div class="col-8">
+                        <div class="research-questions-header">Background</div>
+                        <div class="research-questions-contents">Focus on matching people based off food
+                            interests<br>Matching people based off restaurants they want to try<br>Seeks to use food to
+                            form connections
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="quotes-contents">“I don’t like to eat out by myself. I think it’s awkward to sit
+                            alone.”</div>
+                    </div>
+                    <div class="col-8">
+                        <div class="research-questions-header">Research Goal</div>
+                        <div class="research-questions-contents">To create an app that connects people through food or
+                            restaurant preferences</div>
+                    </div>
+                    <div class="col-4">
+                        <div class="quotes-contents">“People around you can make eating more enjoyable”</div>
+                    </div>
+                    <div class="col-8">
+                        <div class="research-questions-header">Research Questions</div>
+                        <div class="research-questions-contents"><span class="highlight-word">1.</span> How do you
+                            discover/choose what foods or restaurants
+                            to eat?<br><span class="highlight-word">2.</span> What factors are important in deciding a
+                            restaurant to eat at?<br><span class="highlight-word">3.</span> How do you
+                            currently make connections with people?</div>
+                    </div>
+                    <div class="col-4">
+                        <div class="quotes-contents">“I would be comfortable meeting strangers if there was a feature
+                            that would verify users based off mutual connections”</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--  Problem Statement Section using Bootstrap jumbotron-->
+        <div class="jumbotron jumbotron-fluid problem-statement">
+            <div class="container problem-statement-container">
+                <div class="problem-statement-header">Problem Statement</div>
+                <div class="problem-statement-contents">We believe that food is a common connection between all
+                    people.<br>Foodies need a way to
+                    easily try new foods, discover new restaurants and form new relationships.<br>How might we connect
+                    like-minded people over the common interest of food?</div>
+            </div>
+        </div>
+
+        <!--  Definition & Ideation Section -->
+        <div class="definition-container">
+            <div class="header">
+                <div class="number-header">02</div>
+                <div class="title-header">Definition & Ideation</div>
+            </div>
+            <div class="body-contents">Determining the flow required some extensive discussion about how we wanted
+                the swipe feature to act. We discussed types of matches and concluded that both “pending” and “mutual”
+                matches were important to distinguish.</div>
+            <div class="body-contents">The team decided to use dot voting to determine which features we wanted to
+                include in our app.<br>We discussed including personality quiz, local restaurant coupons, and connecting
+                based off similar budgets.<br>We began to focus on the features that were of the highest priority<br>and
+                the lowest complexity. For example, we wanted to include an “about me” section that would allow others
+                to get to know each person as much as they possibly can without being overwhelmed with information.
+            </div>
+            <div class="body-contents">We began to focus on the features that were of the highest
+                priority and the lowest complexity. We wanted to include an “about me” section that
+                would allow others to get to know each person as much as they possibly can without being overwhelmed
+                with information.</div>
+
+            <div class="row">
+                <div class="col mb-3 definition-wireframe-container"></div>
+                <div class="col mb-3 d-flex justify-content-center definition-wireframe-container">
+                    <div class="card definition-card">
+                        <img src="images/pendingmatches.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-title title">Matches</div>
+                            <div class="card-text details">This includes the two types of matches, "pending" and
+                                "mutual."<br>Pending matches are those who have already swiped yes for the user, waiting for a reply.<br>Mutual, is someone who swiped yes for the user, and the user has accepted.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-3 d-flex justify-content-center definition-wireframe-container">
+                    <div class="card definition-card">
+                        <img src="images/aboutme.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-title title">About Me Screen</div>
+                            <div class="card-text details">This includes contents from the app's personality
+                                quiz, matches, restaurants, age, and name.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-3 definition-wireframe-container"></div>
+            </div>
+        </div>
+
+        <!--  Prototyping Section -->
+        <div class="prototype-container">
+            <div class="header">
+                <div class="number-header">03</div>
+                <div class="title-header">Prototyping</div>
+            </div>
+            <div class="body-contents">Each member of the team created paper prototypes and upon review the team
+                decided that each member had a strong understanding of how they wanted a section to look, and we chose
+                to pick one idea from each member to form our lo-fidelity prototype.</div>
+            <a class="btn btn-primary button" class="button"
+                href="https://xd.adobe.com/view/6e1dfe1e-6407-45a6-8bfa-21815bd91b50-3b4e/?fullscreen" target="_blank"
+                role="button">VIEW PROTOTYPE</a>
+
+
+            <!--  User Testing Section -->
+            <div class="user-testing-container">
+                <div class="header">
+                    <div class="number-header">04</div>
+                    <div class="title-header">User Testing</div>
+                </div>
+                <div class="body-contents">Our tasks for testing included whether a user could create a
+                    profile, land
+                    on swipe mode’s suggested candidates, and match with candidates.</div>
+                <div class="body-contents">Through testing, we found that our main issue was how our
+                    navigation bar
+                    was laid out. We chose to swap the home button with the chat button, and move the home button to
+                    the bottom left to create a smoother experience.</div>
+                <div class="row">
+                    <div class="col mb-3 definition-wireframe-container"></div>
+                    <div class="col mb-3 d-flex justify-content-center definition-wireframe-container">
+                        <div class="card definition-card">
+                            <img src="images/homepage.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="card-title title">Before</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-3 d-flex justify-content-center definition-wireframe-container">
+                        <div class="card definition-card">
+                            <img src="images/matched.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="card-title title">After</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-3 definition-wireframe-container"></div>
+                </div>
+            </div>
+
+            <!--  Conclusion Section -->
+            <div class="conclusion-container">
+                <div class="header">
+                    <div class="number-header">05</div>
+                    <div class="title-header">Conclusion</div>
+                </div>
+                <div class="body-contents">Our next steps would be to develop more features such as: group
+                    chat /
+                    group matching - for users to meet up in groups, workplace specific searches for bigger
+                    companies,
+                    verifying users authenticity and a mutual connection feature.</div>
+                <div class="body-contents">At the end of this case study, final feedback was given by an
+                    experienced
+                    product designer. I decided to take this feedback and on my own time begin reworking some UI
+                    elements. A
+                    primary change included switch typography from Rift (which is an all caps typography) to
+                    Montserrat.
+                    This was a decision led by accessibility concerns with an all caps font. (All wireframes in this
+                    case
+                    study page are from the reworked UI.</div>
+            </div>
+            <!--  Next Case Study Section -->
+            <div class="next-case-study">
+                <a class="btn btn-primary button" class="button"
+                    href="https://xd.adobe.com/view/6e1dfe1e-6407-45a6-8bfa-21815bd91b50-3b4e/?fullscreen"
+                    target="_blank" role="button">NEXT CASE STUDY</a>
+            </div>
+
+            <!-- Bootstrap 5 script -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+                crossorigin="anonymous"></script>
+            <!-- Bootstrap 4 script -->
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+                crossorigin="anonymous"></script>
+</body>
+
+<footer>
+    <ul>
+        <li>WORK</li>
+        <li>ABOUT US</li>
+        <li>RESUME</li>
+        <li>CONTACT</li>
+    </ul>
+    <div id="bottom-tag">2020 Kellie Enge. ALL RIGHTS RESERVED.</div>
+</footer>
+
+</html>
